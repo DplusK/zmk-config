@@ -9,6 +9,15 @@
 #include <dt-bindings/zmk/bt.h>
 
 / {
+        chosen {
+                zmk,battery = &vbatt;
+        };
+
+        vbatt: vbatt {
+                compatible = "zmk,battery-nrf-vddh";
+                label = "VBATT";
+        };
+
         keymap {
                 compatible = "zmk,keymap";
 
