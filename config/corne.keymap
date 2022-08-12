@@ -30,9 +30,19 @@
 };
 
 / {
+        backlight: pwmleds {
+                compatible = "pwm-leds";
+                label = "Backlight LEDs";
+                pwm_led_0 {
+                pwms = <&pwm0 45>;
+                label = "Backlight LED 0";
+                };
+        };
+
         chosen {
                 zmk,battery = &vbatt;
                 zmk,underglow = &led_strip;
+                zmk,backlight = &backlight;
 
         };
 
