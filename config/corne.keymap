@@ -13,8 +13,6 @@
 / {
         chosen {
                 zmk,battery = &vbatt;
-                zmk,backlight = &backlight;
-
         };
 
         vbatt: vbatt {
