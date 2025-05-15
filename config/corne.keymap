@@ -50,8 +50,8 @@
 // | SHFT |     |     |     |     |     |   |  _  |  +  |  [  |  ]  |  \  |  ~   | 
 //                    | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
-   &kt DEFAULT &kp C_MUTE     &trans       &trans      &trans      &kt RAISE            &trans          &trans          &trans          &trans          &trans          &trans
-   &trans       &kp C_VOL_UP   &trans       &trans      &trans      &trans              &rgb_ug RGB_TOG &rgb_ug RGB_EFF &rgb_ug RGB_BRI &rgb_ug RGB_BRD &trans          &trans
+   &kt DEFAULT  &kp C_MUTE     &trans       &trans      &trans      &kt RAISE           &trans          &trans          &trans          &trans          &trans          &trans
+   &trans       &kp C_VOL_UP   &trans       &trans      &trans      &trans              &trans          &trans          &trans          &trans          &trans          &trans
    &trans       &kp C_VOL_DN   &kp C_PREV   &kp C_PLAY  &kp C_NEXT  &trans              &bt BT_CLR      &bt BT_SEL 0    &bt BT_SEL 1    &bt BT_SEL 2    &bt BT_SEL 3    &bt BT_SEL 4
                                             &trans      &trans      &trans              &trans          &trans          &trans
                         >;
