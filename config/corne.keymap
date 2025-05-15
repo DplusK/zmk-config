@@ -49,7 +49,7 @@
 // -----------------------------------------------------------------------------------------
 // |  ESC |  !  |  @  |  #  |  $  |  %  |   |  ^  |  &  |  *  |  (  |  )  | BKSP |
 // | CTRL |     |     |     |     |     |   |  -  |  =  |  {  |  }  | "|" |  `   |
-// | SHFT |     |     |     |     |     |   |  _  |  +  |  [  |  ]  |  \  |  ~   | // TODO: Fix this row when &mkp is committed
+// | SHFT |     |     |     |     |     |   |  _  |  +  |  [  |  ]  |  \  |  ~   | 
 //                    | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
    &kt DEFAULT &kp C_MUTE     &trans       &trans      &trans      &tog RAISE          &trans          &trans          &trans          &trans          &trans          &trans
