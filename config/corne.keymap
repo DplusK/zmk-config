@@ -1,6 +1,6 @@
 /*
  * Copyright (c) 2020 The ZMK Contributors
- *
+ * testing
  * SPDX-License-Identifier: MIT
  */
 
@@ -11,6 +11,7 @@
 #define DEFAULT 0
 #define LOWER   1
 #define RAISE   2
+
 
 
 / {
